@@ -1,0 +1,9 @@
+The conversion of the project was successful.
+
+The new directory structure is as follows:
+
+c:/users/evelin/documents/facultate/an 2 sem 2/cad/senzor_de_nivel_nou-pspicefiles
+    senzor_de_nivel_nou.opj
+    senzor_de_nivel_nou.dsn
+c:/users/evelin/documents/facultate/an 2 sem 2/cad/senzor_de_nivel_nou-pspicefiles/senzor_de_nivel_nou-PSpiceFiles
+c:/users/evelin/documents/facultate/an 2 sem 2/cad/senzor_de_nivel_nou-pspicefiles/senzor_de_nivel_nou-PSpiceFiles/SCHEMATIC1

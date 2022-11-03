@@ -1,0 +1,6 @@
+ lib="C:\Users\Evelin\Documents\facultate\an 2 sem 2\cad\senzor_de_nivel_nou-PSpiceFiles\leduri\red_led.lib", offset=1240, size=58
+ lib="C:\Users\Evelin\Documents\facultate\an 2 sem 2\cad\senzor_de_nivel_nou-PSpiceFiles\leduri\blue_led.lib", offset=1150, size=59
+ lib="C:\Users\Evelin\Documents\facultate\an 2 sem 2\cad\senzor_de_nivel_nou-PSpiceFiles\leduri\green_led.lib", offset=1152, size=60
+ lib="C:\Users\Evelin\Documents\facultate\an 2 sem 2\cad\senzor_de_nivel_nou-PSpiceFiles\leduri\yellow_led.lib", offset=1151, size=61
+ lib=C:\Cadence\SPB_17.4\tools\PSpice\Library\opamp.lib, offset=54585, size=371
+ lib=C:\Cadence\SPB_17.4\tools\PSpice\Library\opamp.lib, offset=53165, size=1419

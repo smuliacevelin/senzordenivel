@@ -1,0 +1,95 @@
+
+**** 05/14/22 17:24:38 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test_afisaj"  [ c:\users\evelin\documents\facultate\an 2 sem 2\cad\senzor_de_nivel_nou-pspicefiles\senzor_de
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "test_afisaj.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../leduri/red_led.lib" 
+.LIB "../../../leduri/blue_led.lib" 
+.LIB "../../../leduri/green_led.lib" 
+.LIB "../../../leduri/yellow_led.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_DATA\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN PARAM Rx 20k 30k 100 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source SENZOR_DE_NIVEL_NOU
+R_R2         0 N30894  {Rx} TC=0,0 
+X_U3A         N30628 N30930 VCC -VCC N30930 LM358
+R_R21         N31366 N31354  15k TC=0,0 
+X_U6B         N31856 N31767 VCC 0 N31954 LM358
+X_U6A         N30894 VB VCC -VCC N30906 LM358
+R_R14         N30620 N30628  1k TC=0,0 
+V_V6         N31366 0 16V
+R_R8         0 N30522  1k TC=0,0 
+V_V2         N30418 0 16V
+R_R23         OUT N31378  1k TC=0,0 
+R_R24         0 N31378  1k TC=0,0 
+R_R10         VA N30580  1k TC=0,0 
+X_U5B         N30918 N30620 VCC -VCC N30628 LM358
+R_R1         N30894 N30672  100k TC=0,0 
+R_R17         V1 N31172  1k TC=0,0 
+R_R25         N31767 VCC  15k TC=0,0 
+R_R7         N30522 N30418  5.6k TC=0,0 
+X_U4B         N30522 VA VCC -VCC N30580 LM358
+R_R22         0 N31354  1k TC=0,0 
+X_U8A         N31172 N31378 VCC -VCC OUT LM358
+V_V1         N30672 0 16V
+R_R15         0 N30918  1k TC=0,0 
+V_V4         -VCC 0 -16V
+V_V3         VCC 0 16V
+R_R13         N30906 N30918  180 TC=0,0 
+R_R11         VB N30906  1k TC=0,0 
+R_R9         VB VA  1k TC=0,0 
+R_R16         V2 N31172  1k TC=0,0 
+R_R26         0 N31767  1k TC=0,0 
+R_R12         N30580 N30620  180 TC=0,0 
+X_U7B         N31354 N31184 VCC -VCC N31184 LM358
+R_R27         N35920 N31954  620 TC=0,0 
+X_U8B         N31856 N32924 VCC 0 N32145 LM358
+R_R28         N34393 N32145  620 TC=0,0 
+X_U9B         N31856 N32449 VCC 0 N32433 LM358
+R_R31         N35904 N32433  680 TC=0,0 
+R_R34         N32924 VCC  2.4k TC=0,0 
+R_R35         0 N32924  1k TC=0,0 
+R_R37         0 N32449  1.2k TC=0,0 
+R_R36         N32449 VCC  1k TC=0,0 
+R_R38         N33354 VCC  1k TC=0,0 
+R_R39         0 N33354  2k TC=0,0 
+X_U10B         N31856 N33354 VCC 0 N33560 LM358
+R_R40         N36222 N33560  698 TC=0,0 
+D_D1         N35920 N32145 BLUE_LED 
+D_D2         N34393 N32433 GREEN_LED 
+D_D3         N35904 N33560 RED_LED 
+D_D4         N36222 0 YELLOW_LED 
+R_R3         0 N30894  150k TC=0,0 
+.PARAM  rx=20k
+
+**** RESUMING test_afisaj.cir ****
+.END
+
+ERROR(ORPSIM-15141): Less than 2 connections at node V1.
+
+ERROR(ORPSIM-15141): Less than 2 connections at node V2.
+

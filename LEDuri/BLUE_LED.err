@@ -1,0 +1,8 @@
+STATUS: PSpice Schematics to Capture translator (17.4.0.d001)
+STATUS:  
+STATUS: Translator started at Friday, May 13, 2022 21:11:46
+STATUS: C:\Cadence\SPB_17.4\tools\bin\sch2cap -f "C:\Users\Evelin\Documents\facultate\an 2 sem 2\cad\senzor_de_nivel_nou-PSpiceFiles\LEDuri\BLUE_LED.lib" -o "C:\Users\Evelin\Documents\facultate\an 2 sem 2\cad\senzor_de_nivel_nou-PSpiceFiles\LEDuri\BLUE_LED.olb" -i C:\SPB_DATA\.\cdssetup\OrCAD_PSpice/17.4.0/PSpice.ini -s BLUE_LED
+INFO(ORSCH-1029): Using existing library 'C:\Cadence\SPB_17.4\tools\Capture\Library\PSpice\modeled.etc'.
+INFO(ORSCH-1031): Created new library 'C:\Users\Evelin\Documents\facultate\an 2 sem 2\cad\senzor_de_nivel_nou-PSpiceFiles\LEDuri\BLUE_LED.olb'.
+STATUS: Translator stopped at Friday, May 13, 2022 21:11:46
+STATUS: 0 Error messages, 0 Warning messages

@@ -1,0 +1,90 @@
+
+**** 05/15/22 03:56:27 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test"  [ c:\users\evelin\documents\facultate\an 2 sem 2\cad\senzor_de_nivel_nou-pspicefiles\testare leduri\t
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "test.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "c:/users/evelin/documents/facultate/an 2 sem 2/cad/senzor_de_nivel_nou-pspicefiles/leduri/red_led.lib" 
+.LIB "c:/users/evelin/documents/facultate/an 2 sem 2/cad/senzor_de_nivel_nou-pspicefiles/leduri/yellow_led.lib" 
+.LIB "c:/users/evelin/documents/facultate/an 2 sem 2/cad/senzor_de_nivel_nou-pspicefiles/leduri/green_led.lib" 
+.LIB "c:/users/evelin/documents/facultate/an 2 sem 2/cad/senzor_de_nivel_nou-pspicefiles/leduri/blue_led.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_DATA\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN V_V4 -10 10 0.1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TEST
+V_V1         N00092 0 0Vdc
+D_D1          N01828 0 RED_LED 
+V_V2         N00741 0 0Vdc
+D_D3          N02091 0 BLUE_LED 
+V_V3         N00880 0 0Vdc
+D_D4          N02247 0 GREEN_LED 
+V_V4         N01058 0 0Vdc
+D_D5          N01947 0 YELLOW_LED 
+R_R1         N00092 N01828  715 TC=0,0 
+R_R2         N00741 N01947  698 TC=0,0 
+R_R3         N00880 N02091  620 TC=0,0 
+R_R4         N01058 N02247  620 TC=0,0 
+
+**** RESUMING test.cir ****
+.END
+
+**** 05/15/22 03:56:27 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test"  [ c:\users\evelin\documents\facultate\an 2 sem 2\cad\senzor_de_nivel_nou-pspicefiles\testare leduri\t
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               RED_LED         YELLOW_LED      GREEN_LED       BLUE_LED        
+          IS   10.000000E-21   10.000000E-21    1.103300E-15  295.240000E-15 
+           N    1.7341          1.7433          2.7613          4.9999       
+          RS    4.4724          3.3333          6.4183          9.9622       
+
+
+
+          JOB CONCLUDED
+
+**** 05/15/22 03:56:27 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test"  [ c:\users\evelin\documents\facultate\an 2 sem 2\cad\senzor_de_nivel_nou-pspicefiles\testare leduri\t
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =       22.78
+  Total job time (using Solver 1)   =         .03
+

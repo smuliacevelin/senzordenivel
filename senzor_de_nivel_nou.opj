@@ -1,0 +1,125 @@
+(ExpressProject "senzor_de_nivel_nou"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S027 (4012302)  [2/5/2022]-[05/15/22]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (Allegro Netlist Directory "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\senzor_de_nivel_nou.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\senzor_de_nivel_nou-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\senzor_de_nivel_nou-pspicefiles\schematic1\sim_dc.sim"
+        (DisplayName "SCHEMATIC1-sim_dc")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\senzor_de_nivel_nou-pspicefiles\schematic1\test.sim"
+        (DisplayName "SCHEMATIC1-test")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\senzor_de_nivel_nou-pspicefiles\schematic1\test_afisaj.sim"
+        (DisplayName "SCHEMATIC1-test_afisaj")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\senzor_de_nivel_nou-pspicefiles\schematic1\temperatura.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\senzor_de_nivel_nou-pspicefiles\schematic1\temperatura.sim"
+        (DisplayName "SCHEMATIC1-temperatura")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\leduri\red_led.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\leduri\red_led.lib"))
+      (File ".\leduri\blue_led.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\leduri\blue_led.lib"))
+      (File ".\leduri\green_led.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\leduri\green_led.lib"))
+      (File ".\leduri\yellow_led.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\leduri\yellow_led.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (YELLOW_LED
+      (FullPartName "YELLOW_LED.Normal")
+      (LibraryName
+         "C:\USERS\EVELIN\DOCUMENTS\FACULTATE\AN 2 SEM 2\CAD\SENZOR_DE_NIVEL_NOU-PSPICEFILES\LEDURI\YELLOW_LED.OLB")
+      (DeviceIndex "0"))
+    (RED_LED
+      (FullPartName "RED_LED.Normal")
+      (LibraryName
+         "C:\USERS\EVELIN\DOCUMENTS\FACULTATE\AN 2 SEM 2\CAD\SENZOR_DE_NIVEL_NOU-PSPICEFILES\LEDURI\RED_LED.OLB")
+      (DeviceIndex "0"))
+    (GREEN_LED
+      (FullPartName "GREEN_LED.Normal")
+      (LibraryName
+         "C:\USERS\EVELIN\DOCUMENTS\FACULTATE\AN 2 SEM 2\CAD\SENZOR_DE_NIVEL_NOU-PSPICEFILES\LEDURI\GREEN_LED.OLB")
+      (DeviceIndex "0"))
+    (BLUE_LED
+      (FullPartName "BLUE_LED.Normal")
+      (LibraryName
+         "C:\USERS\EVELIN\DOCUMENTS\FACULTATE\AN 2 SEM 2\CAD\SENZOR_DE_NIVEL_NOU-PSPICEFILES\LEDURI\BLUE_LED.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (Dbreak
+      (FullPartName "Dbreak.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\Evelin\Documents\facultate\an 2 sem 2\cad\senzor_de_nivel_nou-PSpiceFiles\LEDuri")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\evelin\documents\facultate\an 2 sem 2\cad\senzor_de_nivel_nou-pspicefiles\senzor_de_nivel_nou.dsn")
+      (Path "Design Resources"
+         "c:\users\evelin\documents\facultate\an 2 sem 2\cad\senzor_de_nivel_nou-pspicefiles\senzor_de_nivel_nou.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "c:\users\evelin\documents\facultate\an 2 sem 2\cad\senzor_de_nivel_nou-pspicefiles\senzor_de_nivel_nou.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 306 0 440"))
+      (Tab 0)))
+  (MPSSessionName "Evelin"))

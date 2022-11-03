@@ -1,0 +1,23 @@
+** Profile: "SCHEMATIC1-test"  [ c:\users\evelin\documents\facultate\an 2 sem 2\cad\senzor_de_nivel_nou-pspicefiles\testare leduri\test-pspicefiles\schematic1\test.sim ] 
+
+** Creating circuit file "test.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "c:/users/evelin/documents/facultate/an 2 sem 2/cad/senzor_de_nivel_nou-pspicefiles/leduri/red_led.lib" 
+.LIB "c:/users/evelin/documents/facultate/an 2 sem 2/cad/senzor_de_nivel_nou-pspicefiles/leduri/yellow_led.lib" 
+.LIB "c:/users/evelin/documents/facultate/an 2 sem 2/cad/senzor_de_nivel_nou-pspicefiles/leduri/green_led.lib" 
+.LIB "c:/users/evelin/documents/facultate/an 2 sem 2/cad/senzor_de_nivel_nou-pspicefiles/leduri/blue_led.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_DATA\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN V_V4 -10 10 0.1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END
